@@ -1,0 +1,26 @@
+
+This is a series of GM-tool program, intends to increase development effienciency.
+
+这一系列小工具可以用于解决工作期间经常遇到的问题。包含：
+
+    1. 随机数生成 => random
+    2. 杂凑 => digest
+    3. 对称加解密 => symfunc
+    4. 生成SM2密钥对 => ECC_genkey
+    5. 验证SM2密钥对是否匹配 => ECC_checkkey
+    6. SM2签名 => ECC_sign
+    7. SM2验签 => ECC_verify
+    8. SM2加密 => ECC_encrypt
+    9. SM2解密 => ECC_decrypt
+    10. SM2证书替换密钥 => certsubpubkey
+
+共10个小程序。
+小程序的安装请参考 INSTALL 文件的说明，具体使用方式请参考《小工具使用手册》的说明，该文件为 markdown 格式，可以使用 typora 等 markdown 阅读编辑器打开，也可转换为 pdf 格式查看。
+
+如果代码存在漏洞，请联系我：
+
+ 马博文
+ sethma423@outlook.com
+
+于2022-02-08
+

@@ -1,0 +1,15 @@
+安装这些小程序的步骤同安装一般开源软件的步骤相同：
+
+    ./configure
+    make
+    sudo su
+    make install
+
+首先使用 configure 脚本检查安装环境并生成 makefile 文件；
+然后使用 make 编译生成可执行文件；
+最后使用 make install 安装可执行文件到系统路径。系统路径通常是 /usr/bin ，
+若想指定其他安装路径需要在 configure 的步骤明确指定，如：
+
+    ./configure --prefix=~/usr/bin
+
+等。安装到系统路径一般需要 root 权限，所以需要执行 sudo su 命令。如果默认就是 root 权限，当我没说……
